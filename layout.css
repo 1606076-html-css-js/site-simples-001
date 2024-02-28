@@ -1,0 +1,84 @@
+
+/* RESETS */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Estilos de elemento */
+a:hover {
+    color: rgb(170, 168, 168);
+}
+
+/* Layout */
+.cabecalho {
+    background-color: rgb(38, 38, 38);
+    color: white;
+    padding: 7px 7px 12px 10px;
+}
+
+.cabecalho a {
+    color: white;
+}
+
+main {
+    padding: 20px 10px 10px 10px;
+}
+
+/* Componentes */
+.noticia {
+    /* width: 450px; */
+    margin-bottom: 25px;
+    border: solid 1px black;
+    padding: 10px;
+    box-shadow: 1px 5px 12px -5px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+.noticia a {
+    background-color: rgb(55, 54, 54);
+    color: white;
+    border-radius: 10px;
+    padding: 3px 6px;
+}
+
+.noticia a:hover {
+    background-color: rgb(162, 160, 160);
+    color: black;
+    border: solid black 1px;
+    box-shadow: 1px 5px 12px -5px rgba(0,0,0,0.75);
+}
+
+.noticia h2 {
+    margin-top: 0px;
+}
+
+.noticia p {
+    max-width: 60ch;
+}
+
+
+/* DEBUG (Em Tempo de desenvolvimento) */
+
+/* main {
+    border: solid red 4px;
+}
+
+.noticia {
+    border: solid green 4px;
+} */
+
+
